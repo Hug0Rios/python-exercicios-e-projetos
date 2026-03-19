@@ -1,3 +1,5 @@
+#9.	Informar o número do mês do ano e mostrar o nome do mês por extenso.
+# Caso o número do mês não exista, exibir a mensagem "Mês inválido".
 numero_mes = int(input("Digite o némero do mês desejado: "))
 if numero_mes == 1: print("O mês informado é Janeiro")
 else :

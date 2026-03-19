@@ -1,3 +1,4 @@
+#15.	Faça um algoritmo para verificar e imprimir entre 4 números lidos qual é o menor.
 primeiro_numero= float(input('Digite o primeiro numero: '))
 segundo_numero= float(input('Digite o segundo numero: '))
 terceiro_numero= float(input('Digite o terceiro numero: '))
