@@ -1,0 +1,5 @@
+Salario_Bruto=(float(input("Digite o seu salário bruto: ")))
+Horas_Extras=(float(input("Digite a quantidade de horas extras: ")))
+Valor_Horas_Extras=(float(input("Digite o valor da hora extra hora: ")))
+resultado = (Salario_Bruto + (Valor_Horas_Extras * Horas_Extras - 8/100))
+print(resultado)
