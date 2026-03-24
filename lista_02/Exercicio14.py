@@ -6,23 +6,33 @@
 # 5 para a segunda prova e 2 para o trabalho.
 
 nome_do_aluno = input('Digite o nome do aluno: ')
-frequencia= int(input('Digite o numero de faltas do aluno: '))
-if frequencia>15:
-    print('Aluno Reprovado!')
+faltas = int(input("Digite o numero de faltas: "))
+if faltas > 15:
+    print("Aluno reprovado!")
 else:
-    nota_primeira_prova= int(input('Digite a nota da primeira prova: '))
-    nota_segunda_prova = int(input('Digite a nota da segunda prova: '))
-    trabalho= int(input('Digite a nota do trabalho: '))
-    if nota_primeira_prova <0>10:
-        print('Nota inválida!')
+    nota1 = float(input("Digite a nota 1: "))
+    if nota1 < 0:
+        print("Nota 1 invalida!")
     else:
-        if nota_segunda_prova <0>10:
-                print('Nota inválida!')
+        if nota1 > 10:
+            print("Nota 1 invalida!")
         else:
-            if trabalho <0>10:
-                    print('Nota inválida!')
-
-    if ( ((nota_primeira_prova *3 ) + (nota_segunda_prova *5) + (trabalho *2))/10>6 ):
-        print('Aluno Aprovado!')
-    else:
-        print('O Aluno deverá fazer prova final!')
+            nota2 = float(input("Digite a nota 2: "))
+            if nota2 < 0:
+                print("Nota 2 invalida!")
+            else:
+                if nota2 > 10:
+                    print("Nota 2 invalida!")
+                else:
+                    nota_trabalho = float(input("Digite a nota do trabalho: "))
+                    if nota_trabalho < 0:
+                        print("Nota trabalho invalida!")
+                    else:
+                        if nota_trabalho > 10:
+                            print("Nota trabalho invalida!")
+                        else:
+                            media = ((nota1 * 3) + (nota2 * 5) + (nota_trabalho * 2)) / 10
+                            if media >= 6:
+                                print("Aluno aprovado!")
+                            else:
+                                print("O Aluno deverá fazer a prova final!")

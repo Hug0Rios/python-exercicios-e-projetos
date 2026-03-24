@@ -13,4 +13,4 @@ else:
         if quarto_numero < menor:
          menor = quarto_numero
 
-print(f'O Menor número é: {menor}')
+print('O Menor número é: {menor}')
