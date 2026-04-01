@@ -18,6 +18,8 @@ else:
         resultado = primeiro_numero * segundo_numero
         print('Resultado igual a:',resultado)
     else:
-        if codigo == 3:
+        if codigo != 3:
             resultado = primeiro_numero/segundo_numero
             print('Resultado igual a:',resultado)
+        else:
+            print('Erro!')
