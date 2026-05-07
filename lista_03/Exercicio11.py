@@ -1,4 +1,4 @@
-# 11.	Escrever um algoritmo que leia um
+# 	Escrever um algoritmo que leia um
 # número não determinado de valores e calcule
 # a média aritmética dos valores lidos, a
 # quantidade de valores positivos, a quantidade
