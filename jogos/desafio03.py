@@ -6,7 +6,7 @@ import random
 
 print("Voce tem 6 chances de jogadas antes de perder!")
 
-palavras = ["Agua","Engrenagem", "Horizonte", "Labirinto", "Faisca", "Eclipse","Ancora","Tempestade",
+palavras = ["Nebulosa","Engrenagem", "Horizonte", "Labirinto", "Faisca", "Eclipse","Ancora","Tempestade",
                        "Cristal",  "Miragem"]
 palavra_sorteada = random.choice(palavras)
 tamanho = len(palavra_sorteada)
